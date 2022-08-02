@@ -1,8 +1,9 @@
 import './App.css';
+import Navigation from './navbar/Navigation';
 
 function App() {
   return (
-    <div>Let's Get Started</div>
+    <Navigation />
   );
 }
 

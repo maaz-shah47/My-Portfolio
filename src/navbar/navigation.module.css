@@ -1,0 +1,37 @@
+.navbar {
+  background-color: #146deb;
+  min-height: 100px;
+}
+.navbar-brand {
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.icon {
+  color: #fff;
+  font-size: 30px;
+}
+
+.icon:hover {
+  color: rgb(48, 100, 172);
+}
+
+.nav-item {
+  margin-right: 1.5rem;
+}
+
+.menu-icon {
+  margin-right: 2rem;
+  color: white;
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+}
