@@ -1,9 +1,9 @@
-import './App.css';
-import Navigation from './navbar/Navigation';
+import './App.scss';
+import Header from './components/header/Header';
 
 function App() {
   return (
-    <Navigation />
+    <Header />
   );
 }
 

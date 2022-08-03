@@ -1,0 +1,62 @@
+.modal {
+  background-color: rgb(255, 255, 255);
+  height: 360px;
+  z-index: 1000;
+  position: fixed;
+  top: 1.5%;
+  left: 2%;
+  width: 95%;
+  z-index: 100;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.modal-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem 0 2rem;
+}
+
+.modal-heading {
+  color: black;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.divider {
+  width: 100%;
+  border-bottom: 0.5px solid black;
+}
+
+.social-icons {
+  padding: 2rem !important;
+  margin-left: 7px;
+}
+
+.social-icons > span {
+  margin-bottom: 1rem;
+  padding: 0.5rem 0rem 0.5rem 0rem;
+  font-size: 18px;
+  cursor: pointer;
+  display: inline;
+  border-radius: 100px;
+}
+
+.social-icons > span:hover {
+  background-color: #1353e6;
+  color: white;
+}
+.icon {
+  font-size: 20px;
+  margin-right: 0.5rem;
+  margin-left: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .modal {
+    display: none;
+  }
+}
+

@@ -1,6 +1,12 @@
 .navbar {
-  background-color: #146deb;
-  min-height: 100px;
+  background-color: transparent;
+  min-height: 80px;
+  position: fixed;
+  width: 100%;
+}
+
+.active {
+  background-color: #112e57;
 }
 .navbar-brand {
   color: #fff;
@@ -17,7 +23,8 @@
 }
 
 .icon:hover {
-  color: rgb(48, 100, 172);
+  transform: scale(1.6);
+  /* animation: rotateIn 1s linear both; */
 }
 
 .nav-item {
@@ -27,11 +34,21 @@
 .menu-icon {
   margin-right: 2rem;
   color: white;
-  font-size: 30px;
+  font-size: 35px;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
   .menu-icon {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 378px) {
+  .navbar-brand {
+    font-size: 24px;
+  }
+  .menu-icon {
+    font-size: 24px;
   }
 }
