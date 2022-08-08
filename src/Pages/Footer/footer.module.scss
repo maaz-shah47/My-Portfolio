@@ -1,0 +1,70 @@
+.footer {
+  min-height: 40vh;
+  background: #00B4DB;
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+  background: linear-gradient(to right, #0083B0, #00B4DB);
+  padding: 8rem 0;
+  color: white;
+}
+.footer-heading {
+  font-size: 50px;
+  margin-bottom: 1.5rem;
+  letter-spacing: 5px;
+}
+.footer-para {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+  font-weight: lighter;
+}
+.footer-skills {
+  letter-spacing: 5px;
+}
+.icons-container {
+  margin-top: 2rem;
+}
+.btn-icon-only {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  transition: all .15s ease;
+  border-radius: 50%!important;
+  position: relative;
+  text-transform: uppercase;
+  will-change: transform;
+  letter-spacing: .025em;
+  font-size: 1.9rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  padding: 0;
+  line-height: 1.6;
+  text-decoration: none;
+  transform: translateY(-1px);
+  margin-right: .5rem;
+  box-shadow: none;
+  color: #fff;
+  margin-right: 1rem;
+  &:hover {
+    color: white;
+    transform: scale(1.2);
+  }
+}
+.facebook {
+  background-color: #0a6daa;
+}
+
+.github {
+  background-color: #333;
+}
+
+.email {
+  background-color: #db284d;
+}
+.linkedin {
+  background-color: #0a6daa;
+}

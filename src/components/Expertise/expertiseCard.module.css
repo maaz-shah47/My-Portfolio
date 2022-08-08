@@ -1,0 +1,30 @@
+.line{
+  color:#000;
+  font-size:26px;
+  margin-top: 2rem;
+}
+.icon {
+  width: 150px;
+  height: 150px;
+}
+.cards{
+  height: 300px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  box-shadow: -1px 5px 24px -6px rgba(0,0,0,0.53);
+  -webkit-box-shadow: -1px 5px 24px -6px rgba(0,0,0,0.53);
+  -moz-box-shadow: -1px 5px 24px -6px rgba(0,0,0,0.53);
+}
+
+.cards:hover{
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.1);
+  box-shadow: -12px 3px 58px -6px rgba(0,0,0,0.49);
+  -webkit-box-shadow: -12px 3px 58px -6px rgba(0,0,0,0.49);
+  -moz-box-shadow: -12px 3px 58px -6px rgba(0,0,0,0.49);
+}

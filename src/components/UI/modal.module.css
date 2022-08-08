@@ -1,3 +1,13 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
 .modal {
   background-color: rgb(255, 255, 255);
   height: 360px;
@@ -9,6 +19,9 @@
   z-index: 100;
   overflow: hidden;
   border-radius: 10px;
+  animation-duration: 1s;
+  animation-name: slide;
+  animation-timing-function: ease-in-out;
 }
 .modal-container {
   display: flex;
@@ -60,3 +73,14 @@
   }
 }
 
+
+@keyframes slide {
+  0% {
+      opacity: 0;
+      transform: translateY(-200px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}

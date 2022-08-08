@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
-import Intro from '../Intro/Intro'
-import Navigation from '../navbar/Navigation'
+import Intro from '../../components/Intro/Intro'
+import Navigation from '../../components/navbar/Navigation'
 
 import classes from './header.module.css'
 
@@ -11,8 +11,6 @@ const Header = () => {
         <Navigation />
         <Intro />
       </header>
-      <main style={{height: '100vh'}}>
-      </main>
     </Fragment>
   )
 }

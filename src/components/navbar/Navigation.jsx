@@ -35,10 +35,10 @@ const Navigation = () => {
           <FaBars onClick={handleShowMenu} className={classes['menu-icon']}/>
           <Navbar.Collapse className='d-md-flex justify-content-md-end' id="responsive-navbar-nav">
             <Nav className='nav'>
-              <NavLink className={classes['nav-item']}> <FaLinkedin className={classes.icon} /> </NavLink>
-              <NavLink className={classes['nav-item']}> <FaGithubSquare className={classes.icon} /> </NavLink>
-              <NavLink className={classes['nav-item']}> <FaFacebook className={classes.icon} /> </NavLink>
-              <NavLink className={classes['nav-item']}> <FaEnvelope className={classes.icon} />  </NavLink>
+              <a href="https://www.linkedin.com/in/maaz-shah-847991196/" target="_blank" rel='noreferrer' className={classes['nav-item']}> <FaLinkedin className={classes.icon} /> </a>
+              <a href="https://github.com/maaz-shah47" target="_blank" className={classes['nav-item']} rel='noreferrer'> <FaGithubSquare className={classes.icon} /> </a>
+              <a href="https://www.linkedin.com/in/maaz-shah-847991196/" target="_blank" className={classes['nav-item']} rel='noreferrer'> <FaFacebook className={classes.icon} /> </a>
+              <a href="mailto:s.tech4747@gmail.com" target="_blank" className={classes['nav-item']} rel='noreferrer'> <FaEnvelope className={classes.icon} />  </a>
             </Nav>
           </Navbar.Collapse>
         </Container>

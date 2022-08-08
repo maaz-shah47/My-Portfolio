@@ -1,0 +1,30 @@
+.card-main {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  box-shadow: -4px 5px 15px -5px rgba(0,0,0,0.59);
+  -webkit-box-shadow: -4px 5px 15px -5px rgba(0,0,0,0.59);
+  -moz-box-shadow: -4px 5px 15px -5px rgba(0,0,0,0.59);
+
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+
+.code-btn {
+  margin-top: 1rem;
+  padding: 0.7rem;
+  background-color: rgb(66, 65, 65) !important;
+  color: whitesmoke;
+
+  &:hover {
+    color: whitesmoke;
+  }
+  svg {
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+  span {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+}

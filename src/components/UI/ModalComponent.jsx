@@ -5,9 +5,14 @@ import { GrClose } from 'react-icons/gr'
 
 import classes from './modal.module.css'
 
+const Backdrop = (props) => {
+  return <div className={classes.backdrop} onClick={props.handleClose} />;
+};
+
+
 const  ModalOverlay = (props) => {
   return (
-    <div className={classes.modal}>
+    <div className={`${classes.modal}`}>
       <div className={classes['modal-container']}>
           <h2 className={classes['modal-heading']}>Syed Maaz Shah</h2>
           <GrClose className='mt-3' style={{cursor: 'pointer'}} onClick={props.handleClose}/>
@@ -26,7 +31,8 @@ const  ModalOverlay = (props) => {
 const ModalComponent = (props) => {
   return (
     <Fragment>
-        {ReactDOM.createPortal(<ModalOverlay handleClose={props.handleClose} />, document.getElementById('overlays'))}
+      {ReactDOM.createPortal(<Backdrop handleClose={props.handleClose} />, document.getElementById('backdrop-root'))}
+      {ReactDOM.createPortal(<ModalOverlay handleClose={props.handleClose} />, document.getElementById('overlays'))}
     </Fragment>
   )
 }

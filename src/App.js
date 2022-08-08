@@ -1,9 +1,20 @@
+import { Fragment } from 'react';
 import './App.scss';
-import Header from './components/header/Header';
+import Footer from './Pages/Footer/Footer';
+import Header from './Pages/header/Header';
+import Index from './Pages/Main/Index';
 
 function App() {
   return (
-    <Header />
+    <Fragment>
+      <Header />
+      <main>
+        <Index />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </Fragment>
   );
 }
 
